@@ -1,10 +1,12 @@
-Classification Topology Project
+* Classification Topology Project *
 
 Implements a methodology based on local neighborhood graphs (Gabriel graphs)
-developed to characterize and visualize the topology of the classification space
-(distributions, overlap) and the decision surface.
+to characterize and to visualize the topology of the classification dataset
+(distributions, overlap) and of the decision surface.
 
-Code developed as S4 classes provides computation of the local neighborhood graph,
-plotting for visualization of the graph, graph ediding for producing condenced
-graphs highlighing the decision surface topology, and summary methods for the
-graphs.
+Code is developed as a set of S4 classes to compute the local neighborhood graph,
+plotting to visualize the graph, graph ediding for producing condenced graphs that
+highlight the decision surface topology, and summary methods for the graphs
+to report a summary of the graph topology.
+
+Additional methods for resampling the local neighborhood graphs will be added.
